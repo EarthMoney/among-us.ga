@@ -45,7 +45,7 @@ header {
 	box-shadow: inset 0 0 0 10px #c75325;
 }
 .a{
-	height: 1000px;
+	height: 100vh;
 }
 .knopki{
 	margin-left: 25%
@@ -54,10 +54,8 @@ header {
 	margin-left: 15%
 }
 .phone{
-	margin-left: 600px
 	margin-top: 1px;
-	font-size: 50px;
-	margin-left: 100px;
+	font-size: 250%;
 	text-align: center;
 }
 .button2 {
@@ -82,10 +80,26 @@ header {
 .mobile1{
 	width: 300px;
 	margin-top: 50px;
-	margin-left: 35%
+	margin-left: 500%;
 }
 .mobile2{
 	width: 350px;
 	margin-top: 50px;
-	margin-left: 31.5%
+	margin: 0 auto
 }
+#insruktion{
+	background-color: #bb6544;
+}
+#instr{
+	font-size: 300%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.instr{
+	text-align: center;
+	font-size: 200%;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+

@@ -1,17 +1,36 @@
-@media screen and (min-width: 320px){
+@media screen and (max-width:479px){
 	#header{
 		background: url(../img/mobile-fooret.png) no-repeat; 
-		width: 100%;
+		height: 515px;
 	}
 	.title{
 		font-size: 300%;
-		margin-top: 5px;
+		margin-top: 1%;
 	}
 	.none{
 		visibility: hidden;
+		display: none;
 	}
 	.mobile1{
 		width: 250px;
 		margin-top: 5px;
 		margin-left: 10%;
+	}
+	.a{
+		height: 60%;
+	}
+	#pk-instr{
+		visibility: hidden;
+		display: none;
+	}
+}
+@media screen  and (min-width:1000px){
+	#mobile{
+		visibility: hidden;
+		
+	}
+	#mobile-instr{
+		visibility: hidden;
+		display: none;
+	}
 }
